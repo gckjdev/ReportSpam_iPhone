@@ -7,8 +7,10 @@
 //
 
 #import "HelpViewController.h"
+#import "LocaleUtils.h"
 
 @implementation HelpViewController
+@synthesize contentTextView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,11 +35,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"帮助";
+    self.title = NSLS(@"kHelpTitle");
+    contentTextView.text = NSLS(@"kHelpContent");
+    //self.navigationItem.leftBarButtonItem.title = @"返回";
 }
 
 - (void)viewDidUnload
 {
+    [self setContentTextView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -49,4 +54,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)dealloc {
+    [contentTextView release];
+    [super dealloc];
+}
 @end

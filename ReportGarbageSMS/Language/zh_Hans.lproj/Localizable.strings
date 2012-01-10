@@ -5,4 +5,25 @@
   Created by haodong qiu on 12年1月9日.
   Copyright (c) 2012年 orange. All rights reserved.
 */
+
+"kFeatureList" = "功能列表";
+
+"kReportSpamNumber" = "举报垃圾号码";
+"kMyReports" = "我的举报";
+"kFeedback" = "我来提建议";
+"kDelete" = "删除";
+"kNumber" = "号码:";
+"kType" = "类型:";
 "kSelectType" = "选择类型";
+"kBack" = "返回";
+"kType1" = "广告";
+"kType2" = "保险";
+"kType3" = "地产";
+"kType4" = "骗子";
+"kType5" = "其他";
+"kReport" = "举报";
+"kHelpTitle" = "帮助";
+"kHelpContent" = "举报电话号码后，您可以在通讯录里看到有一个黑名单，此黑名单记录了您举报的号码。";
+"kSubmit" = "提交";
+"kContactPlaceholder" = "联系方式（如手机/QQ号/邮箱)";
+

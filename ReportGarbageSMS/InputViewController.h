@@ -12,8 +12,13 @@
 
 @interface InputViewController : ViewController<UIActionSheetDelegate>
 
+@property (retain, nonatomic) IBOutlet UILabel *numberLabel;
+@property (retain, nonatomic) IBOutlet UILabel *typeLabel;
+
+
 @property (retain, nonatomic) IBOutlet UITextField *phoneNumberTextField;
 @property (retain, nonatomic) IBOutlet UIButton *selectTypeButton;
+@property (retain, nonatomic) IBOutlet UIButton *submitButton;
 
 
 - (IBAction)selectType:(id)sender;

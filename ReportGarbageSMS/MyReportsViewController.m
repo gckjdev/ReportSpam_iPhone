@@ -12,6 +12,7 @@
 #import "Contact.h"
 #import "ContactManager.h"
 #import "MyReportsCell.h"
+#import "LocaleUtils.h"
 
 @implementation MyReportsViewController
 
@@ -118,7 +119,6 @@
     MyReportsCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
     
     if (cell == nil) {
-        //cell = [[[MyReportsCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier] autorelease];
         
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"MyReportsCell" owner:self options:nil];
         for (id oneObject in nib) {
@@ -159,7 +159,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return @"删除";
+    return NSLS(@"kDelete");
 }
 
 //- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

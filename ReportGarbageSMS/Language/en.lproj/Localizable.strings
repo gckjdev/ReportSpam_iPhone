@@ -6,4 +6,23 @@
   Copyright (c) 2012年 orange. All rights reserved.
 */
 
+"kFeatureList" = "Feature list";
+
+"kReportSpamNumber" = "Report spam number";
+"kMyReports" = "My reports";
+"kFeedback" = "Feedback";
+"kDelete" = "Delete"; 
+"kNumber" = "Number:";
+"kType" = "Type:";
 "kSelectType" = "Please choose the type of";
+"kBack" = "Back";
+"kType1" = "Advertising";
+"kType2" = "Insurance";
+"kType3" = "Estate";
+"kType4" = "Cheater";
+"kType5" = "Other";
+"kReport" = "Report";
+"kHelpTitle" = "Help";
+"kHelpContent" = "Report phone number, you can see in the book there is a blacklist, this blacklist record of your report number.";
+"kSubmit" = "Submit";
+"kContactPlaceholder" = "Contact(phones/QQ/email)";

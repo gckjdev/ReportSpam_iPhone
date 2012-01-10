@@ -54,6 +54,7 @@
 		A3ECB68914BBF087007F1A20 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ECB63E14BBF087007F1A20 /* ASIHTTPRequest.m */; };
 		A3ECB68A14BBF087007F1A20 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ECB64214BBF087007F1A20 /* ASIInputStream.m */; };
 		A3ECB68B14BBF087007F1A20 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ECB64414BBF087007F1A20 /* ASINetworkQueue.m */; };
+		A3ECB6C414BC1F13007F1A20 /* LogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ECB6C314BC1F13007F1A20 /* LogUtil.m */; };
 		A3F9F0EE14B4022200C54396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F9F0ED14B4022200C54396 /* UIKit.framework */; };
 		A3F9F0F014B4022200C54396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F9F0EF14B4022200C54396 /* Foundation.framework */; };
 		A3F9F0F214B4022200C54396 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F9F0F114B4022200C54396 /* CoreGraphics.framework */; };
@@ -140,6 +141,8 @@
 		A3ECB64314BBF087007F1A20 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
 		A3ECB64414BBF087007F1A20 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
 		A3ECB64514BBF087007F1A20 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		A3ECB6C214BC1F13007F1A20 /* LogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUtil.h; sourceTree = "<group>"; };
+		A3ECB6C314BC1F13007F1A20 /* LogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogUtil.m; sourceTree = "<group>"; };
 		A3F9F0E914B4022200C54396 /* ReportGarbageSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReportGarbageSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F9F0ED14B4022200C54396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3F9F0EF14B4022200C54396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -300,6 +303,8 @@
 		A3D6CB8814BA8BCC002DF74A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A3ECB6C214BC1F13007F1A20 /* LogUtil.h */,
+				A3ECB6C314BC1F13007F1A20 /* LogUtil.m */,
 				A3D6CB8914BA8BCC002DF74A /* LocaleUtils.h */,
 				A3D6CB8A14BA8BCC002DF74A /* LocaleUtils.m */,
 			);
@@ -523,6 +528,7 @@
 				A3ECB68914BBF087007F1A20 /* ASIHTTPRequest.m in Sources */,
 				A3ECB68A14BBF087007F1A20 /* ASIInputStream.m in Sources */,
 				A3ECB68B14BBF087007F1A20 /* ASINetworkQueue.m in Sources */,
+				A3ECB6C414BC1F13007F1A20 /* LogUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

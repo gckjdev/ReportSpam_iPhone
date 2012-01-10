@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "InputViewController.h"
+#import "LocaleUtils.h"
 
 @implementation AppDelegate
 
@@ -27,7 +28,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     InputViewController *controller = [[InputViewController alloc] init];
-    controller.title = @"举报垃圾号码";
+    controller.title = NSLS(@"kReportSpamNumber");
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
     
 #if EXPERIEMENTAL_ORIENTATION_SUPPORT

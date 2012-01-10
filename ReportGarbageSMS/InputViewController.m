@@ -16,12 +16,18 @@
 #import "LocaleUtils.h"
 
 @implementation InputViewController
+@synthesize numberLabel;
+@synthesize typeLabel;
 @synthesize phoneNumberTextField;
 @synthesize selectTypeButton;
+@synthesize submitButton;
 
 - (void)dealloc {
     [selectTypeButton release];
     [phoneNumberTextField release];
+    [numberLabel release];
+    [typeLabel release];
+    [submitButton release];
     [super dealloc];
 }
 
@@ -49,14 +55,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-
-
+    numberLabel.text = NSLS(@"kNumber");
+    typeLabel.text = NSLS(@"kType");
+    [selectTypeButton setTitle:NSLS(@"kType1") forState:UIControlStateNormal];
+    [submitButton setTitle:NSLS(@"kReport") forState:UIControlStateNormal];
 }
 
 - (void)viewDidUnload
 {
     [self setSelectTypeButton:nil];
     [self setPhoneNumberTextField:nil];
+    [self setNumberLabel:nil];
+    [self setTypeLabel:nil];
+    [self setSubmitButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -72,9 +83,9 @@
 {
     UIActionSheet * typeActionSheet = [[UIActionSheet alloc] initWithTitle:NSLS(@"kSelectType") 
                                                              delegate:self 
-                                                         cancelButtonTitle:@"返回"
-                                                    destructiveButtonTitle:@"广告" 
-                                                         otherButtonTitles:@"保险", @"地产", @"骗子", @"其他", nil];
+                                                         cancelButtonTitle:NSLS(@"kBack")
+                                                    destructiveButtonTitle:NSLS(@"kType1") 
+                                                         otherButtonTitles:NSLS(@"kType2"), NSLS(@"kType3"), NSLS(@"kType4"), NSLS(@"kType5"), nil];
     
     [typeActionSheet showInView:self.view];
     [typeActionSheet release];

@@ -7,7 +7,9 @@
 //
 
 #import "SidebarViewController.h"
+#import "LocaleUtils.h"
 
+#define FEATURE_COUNT  3
 
 @implementation SidebarViewController
 
@@ -33,7 +35,7 @@
 
 - (void)viewDidLoad
 {
-    self.actionList = [NSArray arrayWithObjects:@"举报垃圾号码",@"我的举报",@"我来提建议",nil];
+    self.actionList = [NSArray arrayWithObjects:NSLS(@"kReportSpamNumber"),NSLS(@"kMyReports"),NSLS(@"kFeedback"),nil];
     [super viewDidLoad];
 }
 
@@ -62,7 +64,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;//左边的功能列表的数目
+    return FEATURE_COUNT;//左边的功能列表的数目
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

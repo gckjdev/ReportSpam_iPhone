@@ -15,7 +15,7 @@
 #import "MyReportsViewController.h"
 #import "HelpViewController.h"
 #import "FeedbackViewController.h"
-
+#import "LocaleUtils.h"
 
 
 
@@ -100,7 +100,7 @@
         self.leftSidebarViewController.sidebarDelegate = self;
         controller = self.leftSidebarViewController;
         controller.view.frame = CGRectMake(0, mainFrame.origin.y, 270, mainFrame.size.height);
-        controller.title = @"功能列表";
+        controller.title = NSLS(@"kFeatureList");
         controller.view.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
     }
     return controller.view;

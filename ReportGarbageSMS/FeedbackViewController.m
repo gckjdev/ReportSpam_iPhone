@@ -7,6 +7,7 @@
 //
 
 #import "FeedbackViewController.h"
+#import "LocaleUtils.h"
 
 @implementation FeedbackViewController
 @synthesize detailTextView;
@@ -36,6 +37,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [submitButton setTitle:NSLS(@"kSubmit") forState:UIControlStateNormal];
+    contactTextField.placeholder = NSLS(@"kContactPlaceholder");
 }
 
 - (void)viewDidUnload
