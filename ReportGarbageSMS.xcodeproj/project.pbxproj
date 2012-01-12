@@ -30,6 +30,7 @@
 		A3B2887614B57EA800DBAA17 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2887514B57EA700DBAA17 /* MobileCoreServices.framework */; };
 		A3B2887A14B57F1A00DBAA17 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2887914B57F1A00DBAA17 /* SystemConfiguration.framework */; };
 		A3B2887E14B57FFD00DBAA17 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B2887D14B57FFD00DBAA17 /* libz.dylib */; };
+		A3C4E0F014BE797C00AD62AC /* RGS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C4E0EF14BE797C00AD62AC /* RGS@2x.png */; };
 		A3D6CB7214BA870F002DF74A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D6CB6F14BA870F002DF74A /* main.m */; };
 		A3D6CB7714BA8732002DF74A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D6CB7514BA8732002DF74A /* InfoPlist.strings */; };
 		A3D6CB7914BA87BD002DF74A /* ReportGarbageSMS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3D6CB7814BA87BD002DF74A /* ReportGarbageSMS-Info.plist */; };
@@ -100,6 +101,7 @@
 		A3B2887514B57EA700DBAA17 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A3B2887914B57F1A00DBAA17 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A3B2887D14B57FFD00DBAA17 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A3C4E0EF14BE797C00AD62AC /* RGS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RGS@2x.png"; sourceTree = "<group>"; };
 		A3D6CB6F14BA870F002DF74A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReportGarbageSMS/main.m; sourceTree = SOURCE_ROOT; };
 		A3D6CB7114BA870F002DF74A /* ReportGarbageSMS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ReportGarbageSMS-Prefix.pch"; path = "ReportGarbageSMS/ReportGarbageSMS-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A3D6CB7614BA8732002DF74A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				A3AE2E1814B7FAA300040B18 /* RGS.png */,
+				A3C4E0EF14BE797C00AD62AC /* RGS@2x.png */,
 			);
 			path = Icon;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				A3D6CBEA14BAA6E2002DF74A /* FeedbackViewController.xib in Resources */,
 				A3D6CBF514BACFBB002DF74A /* text1.png in Resources */,
 				A3D6CBF614BACFBB002DF74A /* text1@2x.png in Resources */,
+				A3C4E0F014BE797C00AD62AC /* RGS@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

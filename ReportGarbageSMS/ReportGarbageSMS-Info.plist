@@ -11,6 +11,7 @@
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>RGS.png</string>
+		<string>RGS@2x.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>gckj.${PRODUCT_NAME:rfc1034identifier}</string>
