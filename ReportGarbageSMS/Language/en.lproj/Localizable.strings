@@ -6,15 +6,15 @@
   Copyright (c) 2012年 orange. All rights reserved.
 */
 
-"kFeatureList" = "Feature list";
+"kFeatureList" = "Options";
 
-"kReportSpamNumber" = "Report spam number";
-"kMyReports" = "My reports";
+"kReportSpamNumber" = "Report Spam Number";
+"kMyReports" = "My Reports";
 "kFeedback" = "Feedback";
 "kDelete" = "Delete"; 
 "kNumber" = "Number:";
 "kType" = "Type:";
-"kSelectType" = "Please choose the type of";
+"kSelectType" = "Please choose type of spam";
 "kBack" = "Back";
 "kType1" = "Advertising";
 "kType2" = "Insurance";
@@ -23,6 +23,6 @@
 "kType5" = "Other";
 "kReport" = "Report";
 "kHelpTitle" = "Help";
-"kHelpContent" = "Report phone number, you can see in the book there is a blacklist, this blacklist record of your report number.";
+"kHelpContent" = "This application helps you to manage the spam phone number in your address book. You are able to delete all message from these spam numbers and detect them while receiving incoming call. The spam number is also reported to a central system and you are able to share these spam numbers to the whole world!";
 "kSubmit" = "Submit";
-"kContactPlaceholder" = "Contact(phones/QQ/email)";
+"kContactPlaceholder" = "Contact (Mobile/Email)";

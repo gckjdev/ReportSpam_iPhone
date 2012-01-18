@@ -136,7 +136,7 @@
     UIDevice *device = [[UIDevice alloc] init];
     NSString *deviceIdentifier = [device uniqueGlobalDeviceIdentifier];
     
-    NSString *urlString = [NSString stringWithFormat:@"http://www.dipan100.com/api/i?m=spanmessage&mobile=%@&did=%@", phoneNumber, deviceIdentifier];
+    NSString *urlString = [NSString stringWithFormat:@"http://www.dipan100.com/api/i?m=rsn&mobile=%@&device=%@&type=1", phoneNumber, deviceIdentifier];
     NSURL *url = [NSURL URLWithString:urlString];
     ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
     [request setDelegate:self];
