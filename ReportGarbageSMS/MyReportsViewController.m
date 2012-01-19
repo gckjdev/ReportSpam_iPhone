@@ -13,6 +13,8 @@
 #import "ContactManager.h"
 #import "MyReportsCell.h"
 #import "LocaleUtils.h"
+#import "LocaleUtils.h"
+#import "ColorManager.h"
 
 @implementation MyReportsViewController
 
@@ -46,6 +48,7 @@
     
     [self initData];
     [self.reportsTableView setEditing:NO animated:YES];
+    self.searchBar.placeholder = NSLS(@"kSearchBarPlaceholder");
 }
 
 - (void)viewDidUnload
@@ -136,7 +139,8 @@
     cell.phone.text = phone;
     cell.phoneLabel.text = phoneLabel;
     
-    //cell.textLabel.text = [NSString stringWithFormat:@"%@\t%@", phone, phoneLabel];
+    cell.phone.textColor = [ColorManager defaultTextColor];
+    cell.phoneLabel.textColor = [ColorManager defaultTextColor];
     
     return cell;
 }
@@ -147,7 +151,8 @@
     //隐藏键盘
     [searchBar resignFirstResponder];
     
-    return indexPath;
+    return nil;
+    //return indexPath;
 }
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -172,17 +177,17 @@
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         
-        
-        Contact *contact = [showListData objectAtIndex:indexPath.row];
+        Contact *contact = [self.showListData objectAtIndex:indexPath.row];
         
         ContactManager *contactManager = [[ContactManager alloc] init];
         [contactManager deleteContact:contact];
+        NSArray *array = [contactManager getAllPhoneAndLabel:kGarbageSMSUserName];
+        self.listData = [NSMutableArray arrayWithArray:array];
         [contactManager release];
         
         [showListData removeObjectAtIndex:indexPath.row];
         
         
-        //[listData removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
        //[tableView reloadData];
 

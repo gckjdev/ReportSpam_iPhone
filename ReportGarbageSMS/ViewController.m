@@ -60,7 +60,18 @@
     self.navigationItem.leftBarButtonItem = leftButtonItem;
     [leftButtonItem release];
     
-    UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"help.png"]  style:UIBarButtonItemStylePlain target:self action:@selector(about)];
+//    UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"help.png"]  style:UIBarButtonItemStylePlain target:self action:@selector(about)];
+//    self.navigationItem.rightBarButtonItem = rightButtonItem;
+//    [rightButtonItem release];
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 26, 26)];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setBackgroundImage:[UIImage imageNamed:@"help.png"] forState:UIControlStateNormal];
+    [button setFrame:CGRectMake(0, 0, 26, 26)];
+    [button addTarget:self action:@selector(about) forControlEvents:UIControlEventTouchUpInside];
+    [view addSubview:button];
+    UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithCustomView:view];
+    [view release];
     self.navigationItem.rightBarButtonItem = rightButtonItem;
     [rightButtonItem release];
     

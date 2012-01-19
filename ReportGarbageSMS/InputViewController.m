@@ -14,6 +14,7 @@
 #import "Contact.h"
 #import "ContactManager.h"
 #import "LocaleUtils.h"
+#import "ColorManager.h"
 
 @implementation InputViewController
 @synthesize numberLabel;
@@ -54,11 +55,19 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
+    phoneNumberTextField.placeholder = NSLS(@"kInputPhonePlaceholder");
     numberLabel.text = NSLS(@"kNumber");
     typeLabel.text = NSLS(@"kType");
     [selectTypeButton setTitle:NSLS(@"kType1") forState:UIControlStateNormal];
     [submitButton setTitle:NSLS(@"kReport") forState:UIControlStateNormal];
+    
+    [numberLabel setTextColor:[ColorManager tipLabelColor]];
+    [typeLabel setTextColor:[ColorManager tipLabelColor]];
+    
+    [phoneNumberTextField setTextColor:[ColorManager defaultTextColor]];
+    [selectTypeButton setTitleColor:[ColorManager defaultTextColor] forState:UIControlStateNormal];
+    
+    [submitButton setTitleColor:[ColorManager buttonTitleColor] forState:UIControlStateNormal];
 }
 
 - (void)viewDidUnload

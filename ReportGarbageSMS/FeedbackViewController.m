@@ -8,6 +8,7 @@
 
 #import "FeedbackViewController.h"
 #import "LocaleUtils.h"
+#import "ColorManager.h"
 
 @implementation FeedbackViewController
 @synthesize detailTextView;
@@ -38,6 +39,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [submitButton setTitle:NSLS(@"kSubmit") forState:UIControlStateNormal];
+    [submitButton setTitleColor:[ColorManager buttonTitleColor] forState:UIControlStateNormal];
+    
     contactTextField.placeholder = NSLS(@"kContactPlaceholder");
 }
 

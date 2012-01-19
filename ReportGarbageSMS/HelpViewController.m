@@ -8,6 +8,7 @@
 
 #import "HelpViewController.h"
 #import "LocaleUtils.h"
+#import "ColorManager.h"
 
 @implementation HelpViewController
 @synthesize contentTextView;
@@ -37,7 +38,17 @@
     // Do any additional setup after loading the view from its nib.
     self.title = NSLS(@"kHelpTitle");
     contentTextView.text = NSLS(@"kHelpContent");
-    //self.navigationItem.leftBarButtonItem.title = @"返回";
+    contentTextView.textColor = [ColorManager helpTextColor];
+    
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithTitle:NSLS(@"kBack") style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    self.navigationItem.leftBarButtonItem = leftButton;
+    [leftButton release];
+    
+}
+
+- (void)back
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)viewDidUnload

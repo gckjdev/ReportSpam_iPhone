@@ -13,6 +13,7 @@
 "kFeedback" = "我来提建议";
 "kDelete" = "删除";
 "kNumber" = "号码:";
+"kInputPhonePlaceholder" = "请输要举报的号码";
 "kType" = "类型:";
 "kSelectType" = "选择类型";
 "kBack" = "返回";
@@ -22,6 +23,7 @@
 "kType4" = "骗子";
 "kType5" = "其他";
 "kReport" = "举报";
+"kSearchBarPlaceholder" = "搜索号码";
 "kHelpTitle" = "帮助";
 "kHelpContent" = "举报垃圾号码，帮你建立一个通讯录垃圾号码黑名单，当号码加入这个黑名单之后，当收到短信或者电话的时侯，就自动成为垃圾号码。你也可以一键删除收到垃圾号码和短信。同时这个黑名单还会被举报到一个统一的举报系统，方便其他用户共享，赶快来举报这些骚扰你的垃圾号码吧！";
 "kSubmit" = "提交";
