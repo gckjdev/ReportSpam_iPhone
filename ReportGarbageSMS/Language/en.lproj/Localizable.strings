@@ -13,7 +13,7 @@
 "kFeedback" = "Feedback";
 "kDelete" = "Delete"; 
 "kNumber" = "Number:";
-"kInputPhonePlaceholder" = "Enter the phone";
+"kInputPhonePlaceholder" = "Enter phone number";
 "kType" = "Type:";
 "kSelectType" = "Please choose type of spam";
 "kBack" = "Back";
@@ -22,7 +22,7 @@
 "kType3" = "Estate";
 "kType4" = "Cheater";
 "kType5" = "Other";
-"kReport" = "Report";
+"kReport" = "Submit";
 "kSearchBarPlaceholder" = "Search number";
 "kHelpTitle" = "Help";
 "kHelpContent" = "This application helps you to manage the spam phone number in your address book. You are able to delete all message from these spam numbers and detect them while receiving incoming call. The spam number is also reported to a central system and you are able to share these spam numbers to the whole world!";

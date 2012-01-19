@@ -16,9 +16,6 @@
 		A3605BF614B599CD00D4AF91 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = A3605BF314B599CD00D4AF91 /* NSString+MD5Addition.m */; };
 		A3605BF714B599CD00D4AF91 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = A3605BF514B599CD00D4AF91 /* UIDevice+IdentifierAddition.m */; };
 		A37AA3D714C7EF3600A6B0F5 /* ColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A37AA3D614C7EF3600A6B0F5 /* ColorManager.m */; };
-		A3A7B06A14C7C3A000646938 /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A7B06C14C7C3A000646938 /* 512.png */; };
-		A3A7B06E14C7C3A600646938 /* RGS.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A7B07014C7C3A600646938 /* RGS.png */; };
-		A3A7B07114C7C3AE00646938 /* RGS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A7B07314C7C3AE00646938 /* RGS@2x.png */; };
 		A3AE2E1214B7FA6700040B18 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AE2E0D14B7FA6700040B18 /* background.png */; };
 		A3AE2E1314B7FA6700040B18 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AE2E0E14B7FA6700040B18 /* background@2x.png */; };
 		A3AE2E1414B7FA6700040B18 /* ButtonMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AE2E0F14B7FA6700040B18 /* ButtonMenu.png */; };
@@ -66,6 +63,8 @@
 		A3F9F10814B402B900C54396 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F9F10614B402B900C54396 /* ViewController.xib */; };
 		A3F9F10C14B404D000C54396 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F9F10B14B404D000C54396 /* SidebarViewController.m */; };
 		A3F9F13014B453FC00C54396 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F9F12F14B453FB00C54396 /* AddressBook.framework */; };
+		CA8AD12414C8097100EDA718 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8AD12114C8097100EDA718 /* 57.png */; };
+		CA8AD12514C8097100EDA718 /* 57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8AD12214C8097100EDA718 /* 57@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,12 +85,6 @@
 		A3605BF514B599CD00D4AF91 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
 		A37AA3D514C7EF3600A6B0F5 /* ColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorManager.h; sourceTree = "<group>"; };
 		A37AA3D614C7EF3600A6B0F5 /* ColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorManager.m; sourceTree = "<group>"; };
-		A3A7B06B14C7C3A000646938 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/512.png; sourceTree = "<group>"; };
-		A3A7B06F14C7C3A600646938 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/RGS.png; sourceTree = "<group>"; };
-		A3A7B07214C7C3AE00646938 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/RGS@2x.png"; sourceTree = "<group>"; };
-		A3A7B07414C7C3D600646938 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/512.png"; sourceTree = "<group>"; };
-		A3A7B07514C7C3F200646938 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/RGS.png"; sourceTree = "<group>"; };
-		A3A7B07614C7C40600646938 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/RGS@2x.png"; sourceTree = "<group>"; };
 		A3AE2E0D14B7FA6700040B18 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		A3AE2E0E14B7FA6700040B18 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		A3AE2E0F14B7FA6700040B18 /* ButtonMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonMenu.png; sourceTree = "<group>"; };
@@ -153,7 +146,7 @@
 		A3ECB64514BBF087007F1A20 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
 		A3ECB6C214BC1F13007F1A20 /* LogUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUtil.h; sourceTree = "<group>"; };
 		A3ECB6C314BC1F13007F1A20 /* LogUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogUtil.m; sourceTree = "<group>"; };
-		A3F9F0E914B4022200C54396 /* ReportGarbageSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReportGarbageSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F9F0E914B4022200C54396 /* ReportSpam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReportSpam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F9F0ED14B4022200C54396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3F9F0EF14B4022200C54396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3F9F0F114B4022200C54396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +158,8 @@
 		A3F9F10A14B404D000C54396 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		A3F9F10B14B404D000C54396 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		A3F9F12F14B453FB00C54396 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CA8AD12114C8097100EDA718 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		CA8AD12214C8097100EDA718 /* 57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,9 +224,8 @@
 		A3AE2E1714B7FAA300040B18 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
-				A3A7B06C14C7C3A000646938 /* 512.png */,
-				A3A7B07014C7C3A600646938 /* RGS.png */,
-				A3A7B07314C7C3AE00646938 /* RGS@2x.png */,
+				CA8AD12114C8097100EDA718 /* 57.png */,
+				CA8AD12214C8097100EDA718 /* 57@2x.png */,
 			);
 			path = Icon;
 			sourceTree = "<group>";
@@ -379,7 +373,7 @@
 		A3F9F0EA14B4022200C54396 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3F9F0E914B4022200C54396 /* ReportGarbageSMS.app */,
+				A3F9F0E914B4022200C54396 /* ReportSpam.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,7 +444,7 @@
 			);
 			name = ReportGarbageSMS;
 			productName = ReportGarbageSMS;
-			productReference = A3F9F0E914B4022200C54396 /* ReportGarbageSMS.app */;
+			productReference = A3F9F0E914B4022200C54396 /* ReportSpam.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -494,7 +488,6 @@
 				A3AE2E1414B7FA6700040B18 /* ButtonMenu.png in Resources */,
 				A3AE2E1514B7FA6700040B18 /* ButtonMenu@2x.png in Resources */,
 				A3AE2E1614B7FA6700040B18 /* submit.png in Resources */,
-				A3A7B06E14C7C3A600646938 /* RGS.png in Resources */,
 				A3AE2E2F14B839F400040B18 /* MyReportsCell.xib in Resources */,
 				A3D6CB7714BA8732002DF74A /* InfoPlist.strings in Resources */,
 				A3D6CB7914BA87BD002DF74A /* ReportGarbageSMS-Info.plist in Resources */,
@@ -507,8 +500,8 @@
 				A3D6CBEA14BAA6E2002DF74A /* FeedbackViewController.xib in Resources */,
 				A3D6CBF514BACFBB002DF74A /* text1.png in Resources */,
 				A3D6CBF614BACFBB002DF74A /* text1@2x.png in Resources */,
-				A3A7B07114C7C3AE00646938 /* RGS@2x.png in Resources */,
-				A3A7B06A14C7C3A000646938 /* 512.png in Resources */,
+				CA8AD12414C8097100EDA718 /* 57.png in Resources */,
+				CA8AD12514C8097100EDA718 /* 57@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,33 +546,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A3A7B06C14C7C3A000646938 /* 512.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3A7B06B14C7C3A000646938 /* en */,
-				A3A7B07414C7C3D600646938 /* zh-Hans */,
-			);
-			name = 512.png;
-			sourceTree = "<group>";
-		};
-		A3A7B07014C7C3A600646938 /* RGS.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3A7B06F14C7C3A600646938 /* en */,
-				A3A7B07514C7C3F200646938 /* zh-Hans */,
-			);
-			name = RGS.png;
-			sourceTree = "<group>";
-		};
-		A3A7B07314C7C3AE00646938 /* RGS@2x.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3A7B07214C7C3AE00646938 /* en */,
-				A3A7B07614C7C40600646938 /* zh-Hans */,
-			);
-			name = "RGS@2x.png";
-			sourceTree = "<group>";
-		};
 		A3D6CB7514BA8732002DF74A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -644,7 +610,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lingzhe Peng";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lingzhe Peng";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -653,6 +620,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0800EA77-3040-4706-A496-EC0131B765C6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0800EA77-3040-4706-A496-EC0131B765C6";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -664,7 +633,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReportGarbageSMS/ReportGarbageSMS-Prefix.pch";
 				INFOPLIST_FILE = "ReportGarbageSMS/ReportGarbageSMS-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReportSpam;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -675,7 +644,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReportGarbageSMS/ReportGarbageSMS-Prefix.pch";
 				INFOPLIST_FILE = "ReportGarbageSMS/ReportGarbageSMS-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReportSpam;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
