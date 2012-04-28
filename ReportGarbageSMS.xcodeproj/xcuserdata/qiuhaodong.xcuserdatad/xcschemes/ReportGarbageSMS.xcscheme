@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3F9F0E814B4022200C54396"
-               BuildableName = "ReportGarbageSMS.app"
+               BuildableName = "ReportSpam.app"
                BlueprintName = "ReportGarbageSMS"
                ReferencedContainer = "container:ReportGarbageSMS.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3F9F0E814B4022200C54396"
-            BuildableName = "ReportGarbageSMS.app"
+            BuildableName = "ReportSpam.app"
             BlueprintName = "ReportGarbageSMS"
             ReferencedContainer = "container:ReportGarbageSMS.xcodeproj">
          </BuildableReference>
@@ -44,13 +44,14 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3F9F0E814B4022200C54396"
-            BuildableName = "ReportGarbageSMS.app"
+            BuildableName = "ReportSpam.app"
             BlueprintName = "ReportGarbageSMS"
             ReferencedContainer = "container:ReportGarbageSMS.xcodeproj">
          </BuildableReference>
@@ -68,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3F9F0E814B4022200C54396"
-            BuildableName = "ReportGarbageSMS.app"
+            BuildableName = "ReportSpam.app"
             BlueprintName = "ReportGarbageSMS"
             ReferencedContainer = "container:ReportGarbageSMS.xcodeproj">
          </BuildableReference>

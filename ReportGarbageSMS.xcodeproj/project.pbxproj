@@ -45,6 +45,12 @@
 		A3D6CBEA14BAA6E2002DF74A /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D6CBE814BAA6E1002DF74A /* FeedbackViewController.xib */; };
 		A3D6CBF514BACFBB002DF74A /* text1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D6CBF314BACFBA002DF74A /* text1.png */; };
 		A3D6CBF614BACFBB002DF74A /* text1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D6CBF414BACFBA002DF74A /* text1@2x.png */; };
+		A3DFB034154B9D060005691A /* InputViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DFB033154B9D060005691A /* InputViewController~iPad.xib */; };
+		A3DFB036154B9E850005691A /* FeedbackViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DFB035154B9E850005691A /* FeedbackViewController~iPad.xib */; };
+		A3DFB038154B9FF20005691A /* HelpViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DFB037154B9FF20005691A /* HelpViewController~iPad.xib */; };
+		A3DFB03A154BB5D70005691A /* MyReportsViewController~iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DFB039154BB5D60005691A /* MyReportsViewController~iPad.xib */; };
+		A3DFB03D154C04C40005691A /* 50.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DFB03B154C04C40005691A /* 50.png */; };
+		A3DFB03E154C04C40005691A /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DFB03C154C04C40005691A /* 72.png */; };
 		A3ECB5B714BBEF7D007F1A20 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ECB5B614BBEF7D007F1A20 /* Reachability.m */; };
 		A3ECB68414BBF087007F1A20 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ECB63314BBF087007F1A20 /* ASIAuthenticationDialog.m */; };
 		A3ECB68514BBF087007F1A20 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ECB63614BBF087007F1A20 /* ASIDataCompressor.m */; };
@@ -122,6 +128,12 @@
 		A3D6CBE814BAA6E1002DF74A /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
 		A3D6CBF314BACFBA002DF74A /* text1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text1.png; sourceTree = "<group>"; };
 		A3D6CBF414BACFBA002DF74A /* text1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text1@2x.png"; sourceTree = "<group>"; };
+		A3DFB033154B9D060005691A /* InputViewController~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "InputViewController~iPad.xib"; sourceTree = "<group>"; };
+		A3DFB035154B9E850005691A /* FeedbackViewController~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FeedbackViewController~iPad.xib"; sourceTree = "<group>"; };
+		A3DFB037154B9FF20005691A /* HelpViewController~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HelpViewController~iPad.xib"; sourceTree = "<group>"; };
+		A3DFB039154BB5D60005691A /* MyReportsViewController~iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MyReportsViewController~iPad.xib"; sourceTree = "<group>"; };
+		A3DFB03B154C04C40005691A /* 50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50.png; sourceTree = "<group>"; };
+		A3DFB03C154C04C40005691A /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
 		A3ECB5B514BBEF7D007F1A20 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A3ECB5B614BBEF7D007F1A20 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A3ECB63214BBF087007F1A20 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
@@ -226,6 +238,8 @@
 			children = (
 				CA8AD12114C8097100EDA718 /* 57.png */,
 				CA8AD12214C8097100EDA718 /* 57@2x.png */,
+				A3DFB03B154C04C40005691A /* 50.png */,
+				A3DFB03C154C04C40005691A /* 72.png */,
 			);
 			path = Icon;
 			sourceTree = "<group>";
@@ -399,15 +413,19 @@
 				A3D6CBE614BAA6E0002DF74A /* FeedbackViewController.h */,
 				A3D6CBE714BAA6E0002DF74A /* FeedbackViewController.m */,
 				A3D6CBE814BAA6E1002DF74A /* FeedbackViewController.xib */,
+				A3DFB035154B9E850005691A /* FeedbackViewController~iPad.xib */,
 				A3D6CBA414BAA0A2002DF74A /* HelpViewController.h */,
 				A3D6CBA514BAA0A3002DF74A /* HelpViewController.m */,
 				A3D6CBA614BAA0A3002DF74A /* HelpViewController.xib */,
+				A3DFB037154B9FF20005691A /* HelpViewController~iPad.xib */,
 				A3329C2C14B5884F00D3B460 /* InputViewController.h */,
 				A3329C2D14B5884F00D3B460 /* InputViewController.m */,
 				A3329C2E14B5884F00D3B460 /* InputViewController.xib */,
+				A3DFB033154B9D060005691A /* InputViewController~iPad.xib */,
 				A3329C2F14B5884F00D3B460 /* MyReportsViewController.h */,
 				A3329C3014B5884F00D3B460 /* MyReportsViewController.m */,
 				A3329C3114B5884F00D3B460 /* MyReportsViewController.xib */,
+				A3DFB039154BB5D60005691A /* MyReportsViewController~iPad.xib */,
 				A3AE2E2B14B839B600040B18 /* MyReportsCell.h */,
 				A3AE2E2C14B839B700040B18 /* MyReportsCell.m */,
 				A3AE2E2E14B839F300040B18 /* MyReportsCell.xib */,
@@ -502,6 +520,12 @@
 				A3D6CBF614BACFBB002DF74A /* text1@2x.png in Resources */,
 				CA8AD12414C8097100EDA718 /* 57.png in Resources */,
 				CA8AD12514C8097100EDA718 /* 57@2x.png in Resources */,
+				A3DFB034154B9D060005691A /* InputViewController~iPad.xib in Resources */,
+				A3DFB036154B9E850005691A /* FeedbackViewController~iPad.xib in Resources */,
+				A3DFB038154B9FF20005691A /* HelpViewController~iPad.xib in Resources */,
+				A3DFB03A154BB5D70005691A /* MyReportsViewController~iPad.xib in Resources */,
+				A3DFB03D154C04C40005691A /* 50.png in Resources */,
+				A3DFB03E154C04C40005691A /* 72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,7 +657,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReportGarbageSMS/ReportGarbageSMS-Prefix.pch";
 				INFOPLIST_FILE = "ReportGarbageSMS/ReportGarbageSMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = ReportSpam;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -644,7 +670,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReportGarbageSMS/ReportGarbageSMS-Prefix.pch";
 				INFOPLIST_FILE = "ReportGarbageSMS/ReportGarbageSMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = ReportSpam;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
